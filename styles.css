@@ -1,6 +1,9 @@
 body {
       margin: 0;
       font-family: 'Open Sans', sans-serif;
+      background-color: url(/pizzaliano/img/fond-body.png);
+      background-size: cover;
+      z-index: -1;
     }
 .head {
     margin: 0;
@@ -62,25 +65,21 @@ body {
         background-size: cover ; 
         background-position: center; 
         background-repeat: no-repeat; 
-        background-attachment: fixed; 
     }
     .slide-2 { background: url(/pizzaliano/img/pizza\ et\ pates.png);
         background-size: cover ; 
         background-position: center; 
         background-repeat: no-repeat; 
-        background-attachment: fixed;
     }
     .slide-3 { background: url(/pizzaliano/img/img\ restaurant.jpg);
         background-size: cover ; 
         background-position: center; 
         background-repeat: no-repeat; 
-        background-attachment: fixed; 
     }
     .slide-4 { background: url(/pizzaliano/img/dessert\ ilatlien.png);
         background-size: cover ; 
         background-position: center; 
         background-repeat: no-repeat; 
-        background-attachment: fixed; 
     }
 
     /* Overlay sombre */
@@ -139,7 +138,7 @@ body {
     }
      .carousel-caption .btn:hover {
       background: #e8c97a;
-      color: #111;
+      color: #fff;
       
     }
 
@@ -176,3 +175,6 @@ body {
     }
     .carousel-control-prev-icon::after { content: '←'; }
     .carousel-control-next-icon::after { content: '→'; }
+
+  
+  
