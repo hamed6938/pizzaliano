@@ -7,7 +7,8 @@ L'objectif principal était de créer une interface moderne, élégante et surto
 
 🛠️ Technologies utilisées
 
-TechnologieRôleHTML5Structure et contenu des pagesCSS3Mise en forme, animations et responsive design
+Technologie: HTML5 Structure et contenu des pages 
+CSS3 mise en forme, animations et responsive design
 
 📱 Responsive Design
 
